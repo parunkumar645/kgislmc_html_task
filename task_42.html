@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label.required::after {
+        content: " *";
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <fieldset>
+          <legend>Customer</legend>
+          <table>
+            <tr>
+              <td><label class="required">Name</label></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td><label class="required">Email</label></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Investment</td>
+              <td>
+                <select>
+                  <option value="                                   "></option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label class="required">Date Of Joined</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td>Active</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+          </table>
+        </fieldset>
+        <br />
+        <button>ok</button>
+        <button>cancle</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

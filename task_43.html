@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Registration Form</legend>
+        <table>
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>User Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td>Confirm Password:</td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" /></td>
+          </tr>
+          <tr>
+            <td>Mobile:</td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><label>Gender:</label></td>
+            <td>
+              <label for="male"
+                ><input type="radio" id="male" name="gender" />Male</label
+              >
+              <label for="female"
+                ><input type="radio" id="female" name="gender" />Female</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>DOB:</td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="course">Course:</label></td>
+            <td>
+              <select id="course">
+                <option>Select Course</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Nationality:</td>
+            <td>
+              <input type="checkbox" id="indian" />
+              <label for="indian">Indian</label>
+              <input type="checkbox" id="others" />
+              <label for="others">Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Profile:</td>
+            <td>
+              <img
+                src="dummy-profile-pic.jpg"
+                alt="Profile Preview"
+                style="max-width: 150px; max-height: 150px; margin-bottom: 10px"
+              />
+              <br />
+              <input type="file" name="profile" />
+              <small
+                
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
